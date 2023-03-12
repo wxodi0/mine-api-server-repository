@@ -1,0 +1,27 @@
+GET http://localhost:3000/api/members
+
+###
+POST http://localhost:3000/api/members
+Content-Type: application/json
+
+{
+  "name": "teds",
+  "team": "maasdn",
+  "position": "Engineering",
+  "emailAddress": "taefgoogle.com",
+  "phoneNumber": "010-pppp-xxxx",
+  "admissionDate": "2019/10/12",
+  "birthday": "1995/04/17",
+  "profileImage": "profile19.png"
+}
+
+###
+PUT http://localhost:3000/api/members/1
+Content-Type: application/json
+
+{
+  "name" : "David"
+}
+
+###
+DELETE http://localhost:3000/api/members/27
