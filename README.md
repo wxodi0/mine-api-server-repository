@@ -1,3 +1,3 @@
 #### node.js API
-stack: 
+using:    
   express + sequelize + mysql2
